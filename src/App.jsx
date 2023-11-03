@@ -1,11 +1,14 @@
-import "./App.css";
-import Characters from "./components/Characters/Characters";
+import './App.css';
+import Header from './components/Header/Header';
+import Characters from './components/Characters/Characters';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
     <>
-      <h1>Rick and Morty</h1>
+      <Header />
       <Characters />
+      <Footer />
     </>
   );
 }
