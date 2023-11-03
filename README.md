@@ -67,15 +67,19 @@ In this website you will be able to access to information about the famous TV sh
 - Access to the folder where you want to clone this repository
   
 - Clone the repository on your computer
+
   $ git clone https://github.com/marmorrei/rick-and-morty-frontend-react.git
 
 - Access to the repository cloned
+
   $ cd rick-and-morty-frontend-react
 
 - Install the project dependencies using npm or your preference installer
+
   $ npm install
 
 - Once all is installed, run the project on a local port
+
   $ npm run dev
 
 - Click on the local link to access to the web on the local port
@@ -85,7 +89,9 @@ In this website you will be able to access to information about the famous TV sh
 ## Demo
 
 ---
+
 [Link to Demo](https://rickandmorty-j2d.vercel.app/)
+
 ---
 
 ## What's next?
