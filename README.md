@@ -99,6 +99,7 @@ In this website you will be able to access to information about the famous TV sh
 ---
 
 - Implement the search bar for Characters
+- Implement "more info" modal for each character
 - Create the Locations and Episodes components
 - Include routes for the 3 main components
 - Implement search bar and filters for all the components
