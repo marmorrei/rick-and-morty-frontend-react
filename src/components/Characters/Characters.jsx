@@ -33,16 +33,18 @@ export default function Characters() {
       {characters.length > 0 && (
         <ul className='list-of-characters'>{charactersList}</ul>
       )}
-      {isLoading && <strong>Loading...</strong>}
-      {isError && <p>There is an error</p>}
-      {!isLoading && !isError && hasNextPage === true && (
-        <button onClick={() => fetchNextPage()} disabled={isFetchingNextPage}>
-          {isFetchingNextPage ? 'LOADING MORE' : 'VIEW MORE'}
-        </button>
-      )}
-      {!isLoading && !isError && hasNextPage === false && (
-        <p>There are no more results.</p>
-      )}
+      <div className='loading'>
+        {isLoading && <strong>Loading...</strong>}
+        {isError && <p>There is an error</p>}
+        {!isLoading && !isError && hasNextPage === true && (
+          <button onClick={() => fetchNextPage()} disabled={isFetchingNextPage}>
+            {isFetchingNextPage ? 'LOADING MORE' : 'VIEW MORE'}
+          </button>
+        )}
+        {!isLoading && !isError && hasNextPage === false && (
+          <p>There are no more results.</p>
+        )}
+      </div>
     </CharactersStyle>
   );
 }

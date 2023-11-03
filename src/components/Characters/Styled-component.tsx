@@ -6,6 +6,8 @@ export const CharactersStyle = styled.main`
   justify-content: center;
   align-items: center;
 
+  // STYLE OF THE TITLE
+
   .title {
     width: 85vw;
     display: flex;
@@ -26,6 +28,8 @@ export const CharactersStyle = styled.main`
       display: none;
     }
   }
+
+  // STYLE OF THE LIST OF CHARACTERS
 
   .list-of-characters {
     width: 85vw;
@@ -84,6 +88,33 @@ export const CharactersStyle = styled.main`
         font-size: 1rem;
         margin: 0 0.5rem;
       }
+    }
+  }
+
+  // STYLE OF THE LOADING + BUTTON
+
+  .loading {
+    margin-top: 2rem;
+
+    button {
+      width: 12rem;
+      background-color: #407772;
+      border: none;
+      border-radius: 1.5rem;
+      padding: 0.8rem 1rem;
+      font-weight: bold;
+    }
+
+    button:hover {
+      font-size: 1rem;
+    }
+
+    strong {
+      font-weight: bolder;
+    }
+
+    p {
+      font-size: 1rem;
     }
   }
 `;
