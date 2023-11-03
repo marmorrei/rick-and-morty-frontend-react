@@ -3,4 +3,13 @@
   padding: 0.1rem;
   text-align: center;
   list-style: none;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #0e393f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
